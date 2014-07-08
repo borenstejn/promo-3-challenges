@@ -3,31 +3,31 @@ class Player_moving
   
 def initialize ( position ) 
   @position = position ; @iterations = 0; 
-raise "Initial position must be between 1 and 100" unless Grid_POSITIONS.include? @position
-  end
+  raise "Initial position must be between 1 and 100" unless Grid_POSITIONS.include? @position
+end
   
-      def move   distanceInMeters
-@position += distanceInMeters
-  end
+def move   distanceInMeters
+  @position += distanceInMeters
+end
   
 def play
   if(  self.status_Player==:play   ) 
-if rand(1..100) < 50 ; move(rand(1..10))
-  else
+    if rand(1..100) < 50 ; move(rand(1..10))
+    else
         move(-rand(1..10))
-end
+    end
   end
 end
 
 def cheat; @position = 101; end
   
 def status_Player
-    if( @position >   100 )
+  if( @position >   100 )
       :win 
-    elsif(@position<0) ; :loose
-    else;  :play
-    end
+  elsif(@position<0) ; :loose
+  else;  :play
   end
+end
   
   def hasWon ; status_Player  == :win ; end
     

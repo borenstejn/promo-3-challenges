@@ -3,6 +3,8 @@
 # from which "require_relative" is called
 require_relative './age_in_days'
 
+puts Date.today
+
 ### Talking with the user ###
 puts 'What\'s your year of birth ?'
 birth_year = gets.chomp.to_i
