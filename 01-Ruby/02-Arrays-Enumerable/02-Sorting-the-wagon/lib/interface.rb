@@ -12,17 +12,16 @@ begin
 
 end while name != ""
 
-wagon_sort(students)
-effectif = students.count
-studentsbis = students
-studentsbis.delete_at(effectif-1)
+students_list = wagon_sort(students)
+students_string = students_list[0..-2].join(", ")
+puts "Congrats! Your Wagon has #{students_list.count} students : #{students_string} and #{students_list.last}"
 
 
-studentsbis.each do |name|
-	print "#{name}, "
-end
+#effectif = students.count
+#studentsbis = students
+#studentsbis.delete_at(effectif-1)
 
-print students[effectif-1]
+
 
 
 # TODO: Call `wagon_sort` method and display the sorted student list
