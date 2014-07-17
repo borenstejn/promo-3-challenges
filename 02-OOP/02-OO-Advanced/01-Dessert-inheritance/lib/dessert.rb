@@ -24,8 +24,7 @@ class JellyBean < Dessert
 attr_reader :flavor
 
   def initialize(name, calories, flavor)
-    @name = name
-    @calories = calories
+   super(name, calories)
     @flavor = flavor
   end
 
