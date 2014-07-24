@@ -2,13 +2,15 @@ def shuffle_word(a_word)
 
   #TODO: refactor this method
 
-  a_worp.upcase.chars.to_a.shuffle
-  
+  a_word.upcase.chars.shuffle
+
 end
 
 
 def quote_prime_numbers(n)
   #TODO: refactor this method
+
+
 
 
   prime_numbers = (1..n).find_all do |i|
