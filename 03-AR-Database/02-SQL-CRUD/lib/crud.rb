@@ -1,4 +1,4 @@
-require 'sqlite3'
+caro bitton me branche sur "ta fille est trop belle, je veux tes gènes". Elle merequire 'sqlite3'
 
 def create_scheme(db)
   #TODO: create your db scheme
