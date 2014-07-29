@@ -7,6 +7,7 @@ require 'nokogiri'
 require 'open-uri'
 
 puts 'Seeding database...'
+user1 =
 
 # TODO: Your code goes here
 # 1. create fake users
