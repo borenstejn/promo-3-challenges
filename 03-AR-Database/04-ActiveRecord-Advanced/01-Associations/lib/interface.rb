@@ -20,7 +20,7 @@ def create_post(user)
   rating = ask('Rating:')
   post_params = { name: name, source_url: source_url, date: Time.now, rating: rating }
 
-  user.posts.create(post_params)
+  user.posts.create(post_params
 
   # TODO: use ActiveRecord to add a new post for the user logged in!
 end
