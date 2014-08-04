@@ -1,0 +1,66 @@
+.wrapper{
+  text-align: center;
+  background-image:url('http://www.iceme.fr/images/background/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+
+
+
+
+.iframe{
+  text-align: center
+}
+
+body {
+  color:black;
+}
+
+html{
+  font-family: sans-serif;
+}
+
+h1{
+  font-size: 60px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color:white;
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+h4{
+  background-color: rgba(100,100,100,0.3);
+  color:white;
+  display:inline-block;
+  padding: 3px 15px;
+}
+
+
+button{
+  margin: 70px;
+}
+
+
+.bottom{
+  font-family: Helvetica;
+  font-size: 14px;
+  margin:400px 150px;
+}
+
+
+
+.text-spacer{
+  height: 1.2em;
+}
+
+.feature{
+  margin-bottom: 10px;
+}
+
+
+.vertical-spacer{
+  height: 5em;
+}
+
+
