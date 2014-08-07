@@ -1,13 +1,60 @@
 <!DOCTYPE html>
 <html>
+
+<!--Bootstrap CSS-->
+  <link href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--FontAwesome-->
+  <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
   <head>
     <meta charset="utf-8" />
-    <title>JAJAX Wagon Race</title>
-    <link rel="stylesheet" href="/css/normalize.css" />
-    <link rel="stylesheet" href="/css/main.css" />
+    <title>Wagon Race</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
   </head>
 
   <body>
-    <script src="/js/game.js"></script>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-4 col-xs-offset-5">
+          <button type="button" class="btn btn-primary">New Game</button>
+        </div>
+
+
+      </div>
+
+
+
+
+
+    </div>
+
+
+
+
+    <form action="demo_form.asp" id="form1">
+      Joueur 1: <input type="text" name="fname1">
+       Joueur 2: <input type="text" name="fname2"><br>
+      <input type="submit" value="Validez">
+    </form>
+
+
+
+
+
+
+    <table>
+      <tr id="player1">
+        <td class="active"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+      <tr id="player2">
+        <td class="active"></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+      </tr>
+    </table>
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/game.js"></script>
   </body>
 </html>
+
