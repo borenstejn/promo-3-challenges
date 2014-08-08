@@ -21,9 +21,6 @@ td {
   background-image: url('../img/player_2.png');
 }
 
-
-#form1{
-  text-align: center;
-  padding-top: 40px;
+.start-hidden {
+  display: none;
 }
-
